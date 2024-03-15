@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <aside class="menu-lateral">
+
+        <div class="menu-lateral__superior">
+            <a href="#"><img src="./img/spotify-logo.png" alt="logo e dizer spotify"
+                    class="menu-lateral__superior__imagem"></a>
+            <ul class="menu-lateral__superior__lista">
+                <li><a href="#"><i class="fa-solid fa-house"></i>Início</a></li>
+                <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>Buscar</a></li>
+            </ul>
+        </div>
+
+        <div class="menu-lateral__principal">
+            <div class="menu-lateral__principal__cabecalho">
+                <div class="menu-lateral__principal__biblioteca">
+                    <span class="menu-lateral__principal__tooltip">Ocultar sua biblioteca</span>
+                    <a href="#" class="menu-lateral__principal__sua-biblioteca"><i
+                            class="fa-solid fa-layer-group"></i>Sua
+                        Biblioteca</a>
+                </div>
+                <span class="menu-lateral__principal__close"><i class="fa-solid fa-plus"></i></span>
+            </div>
+
+            <div class="menu-lateral__principal__play-podcast-container">
+                <section class="menu-lateral__principal__playlist-container">
+                    <div class="menu-lateral__principal__playlist__dizeres">
+                        <span class="menu-lateral__principal__playlist__titulo">Crie sua primeira playlist</span>
+                        <span class="menu-lateral__principal__playlist__texto">É fácil, vamos te ajudar</span>
+                    </div>
+                    <a href="#" class="menu-lateral__principal__playlist__botao">Criar playlist</a>
+                </section>
+                <section class="menu-lateral__principal__playlist-container">
+                    <div class="menu-lateral__principal__playlist__dizeres">
+                        <span class="menu-lateral__principal__playlist__titulo">Que tal seguir um podcast novo?</span>
+                        <span class="menu-lateral__principal__playlist__texto">Avisaremos você sobre novos
+                            episódios</span>
+                    </div>
+                    <a href="#" class="menu-lateral__principal__playlist__botao">Explore podcast</a>
+                </section>
+            </div>
+        </div>
+
+        <div class="menu-lateral__rodape">
+            <nav class="menu-lateral__rodape__acessos">
+                <ul class="menu-lateral__rodape__acessos__lista">
+                    <li class="menu-lateral__rodape__acessos__lista__item"><a href="#">Legal</a></li>
+                    <li class="menu-lateral__rodape__acessos__lista__item"><a href="#">Segurança e Centro de
+                            privacidade</a></li>
+                    <li class="menu-lateral__rodape__acessos__lista__item"><a href="#">Política de privacidade</a>
+                    </li>
+                    <li class="menu-lateral__rodape__acessos__lista__item"><a href="#">Sobre anúncios</a></li>
+                    <li class="menu-lateral__rodape__acessos__lista__item"><a href="#">Notice at Collection</a></li>
+                    <li class="menu-lateral__rodape__acessos__lista__item"><a href="#">Your Privacy Choices</a></li>
+                    <li class="menu-lateral__rodape__acessos__lista__item"><a href="#">Cookies</a></li>
+                    <li class="menu-lateral__rodape__acessos__lista__item"><a href="#">Acessibilidade</a></li>
+                </ul>
+                <a href="#" class="menu-lateral__rodape__acessos__cookies">Cookies</a>
+            </nav>
+            <div class="menu-lateral__rodape__botao-idioma">
+                <a href="#" class="menu-lateral__rodape__botao-idioma__link"><i class="fa-solid fa-globe"></i>Português
+                    do Brasil</a>
+            </div>
+        </div>
+
+    </aside>
+
+    <main class="principal">
+
+        <header class="principal__cabecalho">
+            <div class="principal__cabecalho__conteudo">
+                <div class="principal__cabecalho__conteudo__navegar-artistas">
+                    <div class="principal__cabecalho__conteudo__navegar-artistas__icone"><i
+                            class="fa-solid fa-chevron-left"></i></div>
+                    <div class="principal__cabecalho__conteudo__navegar-artistas__icone"><i
+                            class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="principal__cabecalho__conteudo__botoes">
+                    <a href="#" class="principal__cabecalho__conteudo__botoes__inscrever">Inscrever-se</a>
+                    <a href="#" class="principal__cabecalho__conteudo__botoes__entrar">Entrar</a>
+                </div>
+            </div>
+        </header>
+
+        <main class="principal__artistas-container__background">
+            <div class="principal__artistas-container">
+
+                <header class="principal__artistas__cabecalho">
+                    <div class="principal__artistas__cabecalho__dizeres">
+                        <a href="#" class="principal__artistas__cabecalho__dizeres__titulo">
+                            <h2>Artistas populares</h2>
+                        </a>
+                        <a href="#" class="principal__artistas__cabecalho__dizeres__mostrar-tudo">Mostrar tudo</a>
+                    </div>
+                </header>
+
+                <main class="principal__artistas-principal">
+
+                    <div class="principal__artistas-principal__card">
+                        <img class="principal__artistas-principal__card__imagem" src="./img/gazelle.jpg"
+                            alt="foto do chacrinha">
+                        <div class="principal__artistas-principal__card__hover-icon">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <div class="principal__artistas-principal__card__dizeres">
+                            <div class="principal__artistas-principal__card__nome">
+                                <span>Gazelle</span>
+                            </div>
+                            <div class="principal__artistas-principal__card__artista">
+                                <span>Artista/Animação</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="principal__artistas-principal__card">
+                        <img class="principal__artistas-principal__card__imagem" src="./img/macaco-severino.jpg"
+                            alt="foto do macaco severino">
+                        <div class="principal__artistas-principal__card__hover-icon">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <div class="principal__artistas-principal__card__dizeres">
+                            <div class="principal__artistas-principal__card__nome">
+                                <span>Macaco Severino</span>
+                            </div>
+                            <div class="principal__artistas-principal__card__artista">
+                                <span>Artista/Pet</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="principal__artistas-principal__card">
+                        <img class="principal__artistas-principal__card__imagem" src="./img/joel.jpg"
+                            alt="foto do joel">
+                        <div class="principal__artistas-principal__card__hover-icon">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <div class="principal__artistas-principal__card__dizeres">
+                            <div class="principal__artistas-principal__card__nome">
+                                <span>Joel</span>
+                            </div>
+                            <div class="principal__artistas-principal__card__artista">
+                                <span>Artista/Pai solteiro</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="principal__artistas-principal__card">
+                        <img class="principal__artistas-principal__card__imagem" src="./img/fada-dente.jpg"
+                            alt="foto da fada do dente">
+                        <div class="principal__artistas-principal__card__hover-icon">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <div class="principal__artistas-principal__card__dizeres">
+                            <div class="principal__artistas-principal__card__nome">
+                                <span>Fada do dente</span>
+                            </div>
+                            <div class="principal__artistas-principal__card__artista">
+                                <span>Artista/Vilã</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="principal__artistas-principal__card">
+                        <img class="principal__artistas-principal__card__imagem" src="./img/pica-pau.jpg"
+                            alt="foto da fada do pica-pau">
+                        <div class="principal__artistas-principal__card__hover-icon">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <div class="principal__artistas-principal__card__dizeres">
+                            <div class="principal__artistas-principal__card__nome">
+                                <span>Pica-pau</span>
+                            </div>
+                            <div class="principal__artistas-principal__card__artista">
+                                <span>Artista/Maluco</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="principal__artistas-principal__card">
+                        <img class="principal__artistas-principal__card__imagem" src="./img/roberto-carlos.jpg"
+                            alt="foto da fada do roberto carlos">
+                        <div class="principal__artistas-principal__card__hover-icon">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <div class="principal__artistas-principal__card__dizeres">
+                            <div class="principal__artistas-principal__card__nome">
+                                <span>Roberto Carlos</span>
+                            </div>
+                            <div class="principal__artistas-principal__card__artista">
+                                <span>Artista/Imortal</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="principal__artistas-principal__card">
+                        <img class="principal__artistas-principal__card__imagem" src="./img/Para-nossa-alegria.jpg"
+                            alt="foto da fada do cantos do meme nossa alegria">
+                        <div class="principal__artistas-principal__card__hover-icon">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <div class="principal__artistas-principal__card__dizeres">
+                            <div class="principal__artistas-principal__card__nome">
+                                <span>Para nossa alegria (?)</span>
+                            </div>
+                            <div class="principal__artistas-principal__card__artista">
+                                <span>Artista/Meme</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </main>
+
+            </div>
+        </main>
+
+        <footer class="principal__rodape">
+
+            <main class="principal__rodape__container">
+                <div class="principal__rodape__conteudo">
+
+                    <ul class="principal__rodape__conteudo__lista">
+                        <li class="principal__rodape__conteudo__lista__titulo">Empresa</li>
+                        <li><a class="principal__rodape__conteudo__lista__item" href="#">Sobre</a></li>
+                        <li><a class="principal__rodape__conteudo__lista__item" href="#">Empregos</a></li>
+                        <li><a class="principal__rodape__conteudo__lista__item" href="#">For the Record</a></li>
+                    </ul>
+
+                    <ul class="principal__rodape__conteudo__lista">
+                        <li class="principal__rodape__conteudo__lista__titulo">Comunidades</li>
+                        <li><a class="principal__rodape__conteudo__lista__item" href="#">Para Artistas</a></li>
+                        <li><a class="principal__rodape__conteudo__lista__item" href="#">Desenvolvedores</a></li>
+                        <li><a class="principal__rodape__conteudo__lista__item" href="#">Publicidade</a></li>
+                        <li><a class="principal__rodape__conteudo__lista__item" href="#">Investidores</a></li>
+                        <li><a class="principal__rodape__conteudo__lista__item" href="#">Fornecedores</a></li>
+                    </ul>
+
+                    <ul class="principal__rodape__conteudo__lista">
+                        <li class="principal__rodape__conteudo__lista__titulo">Links úteis</li>
+                        <li><a class="principal__rodape__conteudo__lista__item" href="#">Suporte</a></li>
+                        <li><a class="principal__rodape__conteudo__lista__item" href="#">Aplicativo móvel grátis</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <aside class="principal__rodape__redes-sociais">
+                    <div class="principal__rodape__redes-sociais__icones">
+
+                        <div class="principal__rodape__redes-sociais__icones__background">
+                            <a class="principal__rodape__redes-sociais__icones__figura" href="#"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </div>
+
+                        <div class="principal__rodape__redes-sociais__icones__background">
+                            <a class="principal__rodape__redes-sociais__icones__figura" href="#"><i
+                                    class="fa-brands fa-twitter"></i></a>
+                        </div>
+
+                        <div class="principal__rodape__redes-sociais__icones__background">
+                            <a class="principal__rodape__redes-sociais__icones__figura" href="#"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                        </div>
+
+                    </div>
+                </aside>
+
+            </main>
+
+            <footer class="principal__rodape__inferior">
+                <div class="principal__rodape__inferior__divisoria">
+                    <hr>
+                </div>
+                <div class="principal__rodape__inferior__direitos">
+                    <span class="principal__rodape__inferior__direitos__escrita">© 2024 Spotify AB</span>
+                </div>
+            </footer>
+
+        </footer>
+
+    </main>
+
+    <footer class="rodape">
+
+        <div class="rodape__container">
+            <div class="rodape__conteudo">
+                <div class="rodape__conteudo__dizeres">
+                    <p class="rodape__conteudo__dizeres__titulo">Testar o Premium de graça</p>
+                    <p class="rodape__dizeres__senteça">Inscreva-se para curtir música ilimitada e podcasts só com
+                        alguns anúncios. Não precisa de cartão de crédito.</p>
+                </div>
+                <div class="rodape__conteudo__botao-inscreva-se">
+                    <a href="#" class="rodape__conteudo__botao-inscreva-se__texto">Inscreva-se grátis</a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
