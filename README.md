@@ -1,6 +1,6 @@
 ﻿# spotify-clone
 
-**Objetivo:** Prática de responsividade com HTML e CSS puro básico
+**Objetivo:** Prática de HTML e CSS puro básico
 
 **Resultado:**
 
