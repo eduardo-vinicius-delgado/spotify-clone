@@ -8,6 +8,7 @@
     --gray-lighter-color: #242424;
     --gray-lighter-background-color: #242424;
     --text-color: #B3B3B3;
+    --text-active-color: #6A6A6A;
     --text-white-color: #ffff;
     --text-hover-color: #fff;
     --close-icon-background-hover-color: #1A1A1A;
@@ -26,6 +27,7 @@
     --artist-background-color-hover: #282828;
     --title-color: #fff;
     --artist-icon-hover-background-color: #1ed760;
+    --artist-icon-active-background-color: #169C46;
     --icon-background-color-hover: #727272;
     --footer-gradient-first-color: #AE2896;
     --footer-gradient-second-color: #8060C4;
@@ -174,6 +176,10 @@ body {
     cursor: pointer;
 }
 
+.menu-lateral__principal__close:active {
+    background-color: var(--background-color) !important;
+}
+
 .menu-lateral__principal__close i {
     font-weight: 400;
     font-size: 1.2rem;
@@ -287,12 +293,20 @@ body {
     color: var(--text-color);
 }
 
+.menu-lateral__rodape__acessos__lista__item a:active {
+    border-bottom: 3px solid var(--text-color);
+}
+
 .menu-lateral__rodape__botao-idioma {
     padding: 0 24px;
 }
 
 .menu-lateral__rodape__botao-idioma:hover {
     transform: scale(1.04);
+}
+
+.menu-lateral__rodape__botao-idioma:active {
+    transform: scale(0.98);
 }
 
 .menu-lateral__rodape__botao-idioma__link {
@@ -304,6 +318,11 @@ body {
     text-decoration: none;
     color: var(--text-white-color);
 }
+
+.menu-lateral__rodape__botao-idioma__link:active {
+    color: var(--text-color) !important;
+}
+
 
 .menu-lateral__rodape__botao-idioma__link i {
     margin-right: 3px;
@@ -387,6 +406,11 @@ body {
     transform: scale(1.04);
 }
 
+.principal__cabecalho__conteudo__botoes__inscrever:active {
+    transform: scale(0.98);
+    color: var(--text-active-color);
+}
+
 .principal__cabecalho__conteudo__botoes__entrar {
     background-color: var(--buttom-background-color);
     font-size: 0.9rem;
@@ -399,6 +423,11 @@ body {
 
 .principal__cabecalho__conteudo__botoes__entrar:hover {
     transform: scale(1.04);
+}
+
+.principal__cabecalho__conteudo__botoes__entrar:active {
+    transform: scale(0.99) !important;
+    background-color: var(--butom-active-background-color);
 }
 
 .principal__artistas-container__background {
@@ -515,6 +544,10 @@ body {
     transition: opacity .5s, transform .3s;
 }
 
+.principal__artistas-principal__card__hover-icon:active {
+    background-color: var(--artist-icon-active-background-color);
+}
+
 .principal__artistas-principal__card__hover-icon i {
     font-weight: 1rem;
 }
@@ -570,6 +603,11 @@ body {
     color: var(--text-hover-color);
 }
 
+.principal__rodape__conteudo__lista__item:active {
+    text-decoration: none;
+    border-bottom: 3px solid var(--text-color);
+}
+
 .principal__rodape__redes-sociais {
     margin: 44px 0 40px 0;
     padding: 48px 40px 0 32px;
@@ -593,6 +631,10 @@ body {
 
 .principal__rodape__redes-sociais__icones__background:hover {
     background-color: var(--icon-background-color-hover);
+}
+
+.principal__rodape__redes-sociais__icones__background:active {
+    background-color: var(--text-active-color);
 }
 
 .principal__rodape__redes-sociais__icones__figura {
@@ -667,7 +709,7 @@ body {
 
 .rodape__dizeres__senteça {
     font-size: 0.9rem;
-    color: var(--text-white-color);
+    color: var(--tex);
     font-weight: 400;
 }
 
@@ -685,6 +727,11 @@ body {
 
 .rodape__conteudo__botao-inscreva-se:hover {
     transform: scale(1.04);
+}
+
+.rodape__conteudo__botao-inscreva-se:active {
+    transform: scale(0.99) !important;
+    background-color: var(--butom-active-background-color);
 }
 
 .rodape__conteudo__botao-inscreva-se__texto {
